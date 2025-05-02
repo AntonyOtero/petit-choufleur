@@ -1,12 +1,17 @@
+import Cover from "../../images/cover.webp";
+
+import "./home.css";
+
 const home = () => {
     const Component = document.createElement("section");
-    const Title = document.createElement("h1");
     const About = document.createElement("div");
+    const CoverImage = new Image();
 
     Component.setAttribute("id", "home");
     About.setAttribute("id", "about");
+    CoverImage.classList.add("cover-image");
+    CoverImage.src = Cover;
 
-    Title.textContent = "Petit Choufleur";
     About.innerHTML = `
         <p>
             <strong>Petite Choufleur</strong> is a original bistro serving dishes based on seasonal products. We often change our menu to welcome you always anew,  <strong>not in an obvious manner</strong>.
@@ -16,8 +21,8 @@ const home = () => {
         </p>
     `
 
-    Component.append(Title);
-    Component.append(About);
+    Component.appendChild(About);
+    Component.appendChild(CoverImage);
 
     return Component;
 }
