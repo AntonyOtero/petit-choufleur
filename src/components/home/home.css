@@ -4,6 +4,16 @@
     font-family: Spectral;
 }
 
+#about {
+    margin-right: 1.5rem;
+    font-size: 1.44rem;
+    max-width: 60ch;
+}
+
+#about p:first-of-type {
+    margin-bottom: 1rem;
+}
+
 .cover-image {
     border: 2px solid transparent;
     border-radius: 5px;
