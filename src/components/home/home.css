@@ -1,13 +1,13 @@
 #home {
     display: flex;
     align-items: center;
-    font-family: Spectral;
+    font-family: var(--font-serif);
 }
 
 #about {
     margin-right: 1.5rem;
-    font-size: 1.44rem;
-    max-width: 60ch;
+    font-size: var(--copy-h5);
+    max-width: var(--line-length);
 }
 
 #about p:first-of-type {

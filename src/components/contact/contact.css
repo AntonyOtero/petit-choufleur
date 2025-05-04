@@ -1,0 +1,85 @@
+.contact {
+    justify-content: space-between;
+}
+  
+.contact address {
+    padding-left: 20px;
+    font-style: normal;
+}
+  
+.contact address p {
+    font-size: var(--copy-h2);
+    font-weight: 700;
+}
+  
+.contact address a {
+    font-size: var(--copy-h3);
+}
+  
+.contact form {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact legend {
+    font-size: var(--copy-h3);
+    margin: 0 0 20px;
+}
+
+.contact form > div {
+    display: flex;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    background: transparent;
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder,
+.contact button::placeholder {
+    color: var(--color-orange);
+    opacity: 75%;
+}
+
+.contact input,
+.contact textarea {
+    padding: 13px 0 13px 20px;
+    margin: 0 0 20px 0;
+    opacity: 75%;
+}
+
+.contact textarea {
+    height: 135px;
+}
+
+.contact input[name='pronoun'],
+.contact input[name='name'] {
+    width: 50%;
+}
+
+.contact input[name='pronoun'] {
+    margin-right: 20px;
+}
+
+.contact input[name='message'] {
+    height: 135px;
+}
+
+.contact button {
+    width: 180px;
+    height: 45px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    color: var(--color-brown);
+    background-color: var(--color-orange);
+}

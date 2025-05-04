@@ -1,16 +1,30 @@
 @import "./brictson-reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+:root {
+    --color-orange: #fbaa74;
+    --color-brown: #3d2e29;
+    --font-sans: Montserrat;
+    --font-serif: Spectral;
+    --copy-default: 18px;
+    --copy-small: 0.833rem;
+    --copy-xsmall: 0.694rem;
+    --copy-large: 1.2rem;
+    --copy-h5: 1.44rem;
+    --copy-h4: 1.728rem;
+    --copy-h3: 2.074rem;
+    --copy-h2: 2.488rem;
+    --copy-h1: 2.986rem;
+    --line-length: 60ch;
+}
+
 body {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    font-size: 18px;
-    font-family: Montserrat;
-    color: #fbaa74;
-    background-color: #3d2e29;
+    font-family: var(--font-sans);
+    font-size: var(--copy-default);
+    color: var(--color-orange);
+    background-color: var(--color-brown);
 }
 
 header,
@@ -32,11 +46,11 @@ footer {
 }
 
 .logo {
-    font-size: 1.44rem;
+    font-size: var(--copy-h5);
 }
 
 nav button {
-    font-size: 1rem;
+    font-size: var(--copy-default);
     margin: 0 10px;
     padding: 5px 10px;
 }
@@ -46,7 +60,7 @@ footer {
 }
 
 address {
-    font-size: 1rem;
+    font-size: var(--copy-default);
     font-style: normal;
 }
 
@@ -60,8 +74,8 @@ address a {
 }
 
 #content {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,5 +89,5 @@ address a {
 }
 
 .active {
-    border-bottom: 2px solid #fbaa74;
+    border-bottom: 2px solid var(--color-orange);
 }

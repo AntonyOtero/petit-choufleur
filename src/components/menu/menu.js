@@ -11,10 +11,10 @@ const generateItem = (name, price, description, i) => {
     const menuItem = document.createElement('li')
 
     menuItem.innerHTML = `
-    <h2 class='item-name'>${name}</h2>
-    <p class='item-description'>${description}</p>
-    <p class='item-price'>${price}</p>
-  `
+        <h2 class='item-name'>${name}</h2>
+        <p class='item-description'>${description}</p>
+        <p class='item-price'>${price}</p>
+    `
 
     menuItem.dataset.index = i
 
@@ -22,17 +22,16 @@ const generateItem = (name, price, description, i) => {
 }
 
 const menu = () => {
-    const container = document.createElement('div')
     const menuList = document.createElement('ul')
     const menuItems = [...items]
 
-    container.classList.add('menu')
+    menuList.classList.add('menu')
 
     menuItems.forEach((item, index) => {
-        container.append(generateItem(item.name, item.price, item.description, index))
+        menuList.append(generateItem(item.name, item.price, item.description, index))
     });
 
-    return container
+    return menuList
 }
 
 export { menu }
