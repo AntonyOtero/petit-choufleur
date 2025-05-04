@@ -1,53 +1,21 @@
 ![Static Badge](https://img.shields.io/badge/The_Odin_Project-dbb46d)
 
-# Project Name
+# Petit Choufleur
 
-> One paragraph statement about the project.
+> A simple, dynamically rendered restaurant site for the fictional brand Petit Choufleur. This is a project submission for The Odin Project.
 
-![screenshot](./images/app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./src/images/app_screenshot.jpeg)
 
 ## Built With
 
-- HTML5
-- CSS3
+- HTML
+- CSS
+- JavaScript
+- Webpack
 
 ## Live Demo
 
-**UPDATE ME** [Live Demo Link](https://antonyotero.github.io/ *repo name* /) **UPDATE ME**
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for Visual Studio Code 
-
-### Setup
-
-1- Clone the repository
-```
-git clone https://github.com/AntonyOtero/the-odin-template.git
-```
-2- Open the cloned repo directory in VS Code, right click the index.html file and click on "Open With Live Server"
-
-3- Everything should be running by now. 👍
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[GitHub Pages: antonyotero.github.io/petit-choudfleur](https://antonyotero.github.io/petit-choufleur/)
 
 ## Authors
 
@@ -56,12 +24,6 @@ git clone https://github.com/AntonyOtero/the-odin-template.git
 - GitHub: [@AntonyOtero](https://github.com/AntonyOtero)
 - LinkedIn: [in/antonyotero](https://www.linkedin.com/in/antonyotero/)
 - X: [@AntonyOtero](https://twitter.com/AntonyOtero)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-**UPDATE ME** Feel free to check the [issues page ](https://github.com/AntonyOtero/ *repo name* /issues). **UPDATE ME**
 
 ## Show your support
 
@@ -73,6 +35,9 @@ Give a ⭐️ if you like this project!
 
 ## Useful Resources
 - [Google Fonts](https://fonts.google.com/)
+- [Typeface](https://typescale.com/)
+- [Khroma](https://www.khroma.co/generator)
+- [Colorable](https://colorable.jxnblk.com/)
 
 ## 📝 License
 
