@@ -9,8 +9,8 @@ body {
     justify-content: space-between;
     font-size: 18px;
     font-family: Montserrat;
-    color: #443148;
-    background-color: #feccce;
+    color: #fbaa74;
+    background-color: #3d2e29;
 }
 
 header,
@@ -75,5 +75,5 @@ address a {
 }
 
 .active {
-    border-bottom: 2px solid #443148;
+    border-bottom: 2px solid #fbaa74;
 }

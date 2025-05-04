@@ -1,4 +1,5 @@
 import { home } from "./components/home/home";
+import { menu } from "./components/menu/menu";
 
 import "./styles.css";
 
@@ -7,6 +8,8 @@ const NavButtons = document.querySelectorAll(".nav-tab");
 
 const components = {
     home: home(),
+    menu: menu(),
+    contact: "Contact",
 }
 
 NavButtons.forEach(button => {
@@ -19,4 +22,4 @@ NavButtons.forEach(button => {
     });
 });
 
-Content.append(home());
+Content.append(home()); 

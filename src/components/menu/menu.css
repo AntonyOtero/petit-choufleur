@@ -1,0 +1,43 @@
+.menu {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
+    width: 100%;
+    max-width: 414px;
+    list-style: none;
+    border-bottom: 2px dashed #fbaa74;
+  }
+  
+  .item-name {
+    margin-right: 1rem;
+    font-size: 1.44rem;
+}
+
+.item-price {
+    align-self: center;
+    font-weight: bold;
+}
+  
+.item-description {
+    opacity: 75%;
+    font-family: Spectral;
+    text-align: center;
+}
+  
+  @media (max-width: 490px) {
+    .item-name {
+      font-size: var(--font-size-h5);
+    }
+    
+    .item-price {
+      font-size: var(--font-size-md);
+    }
+  }
